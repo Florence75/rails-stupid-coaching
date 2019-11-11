@@ -1,0 +1,26 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$vanilla: #F1E9DE;
+
+body {
+  background: $vanilla; // Using this variable
+}
+
+.banner {
+  background: red;
+  h1 {
+    font-size: 50px;
+  }
+}
+
+a {
+  color: $vanilla;
+  &:hover {
+    color: black;
+  }
+}
+.coach {
+ background-color: pink;
+}
